@@ -16,9 +16,9 @@ export default function Hero() {
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
 
-          <div className="max-w-3xl">
+          <div className="max-w-3xl mt-20">
 
-            <div className="relative inline-flex mt-20 mb-8">
+            <div className="relative inline-flex mb-8">
               <span className="absolute inset-0 rounded-full bg-blue-500/30 animate-ping">
               </span>
 

@@ -38,7 +38,7 @@ export default function Projects() {
           {projects.map((item, index) => (
             <div
               key={index}
-              className="bg-slate-800 p-8 rounded-2xl max-w-[300px] w-full"
+              className="bg-slate-800 p-8 rounded-2xl max-w-75 w-full"
             >
               <item.icon size={40} />
 

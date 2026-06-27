@@ -19,7 +19,8 @@ export default function Hero() {
           <div className="max-w-3xl">
 
             <div className="relative inline-flex mt-20 mb-8">
-              <span className="absolute inset-0 rounded-full bg-blue-500/30 animate-ping"></span>
+              <span className="absolute inset-0 rounded-full bg-blue-500/30 animate-ping">
+              </span>
 
               <span className="relative px-4 py-2 rounded-full bg-slate-900 border border-blue-500/40 text-blue-400">
               🚀 Desenvolvimento Web Moderno

@@ -1,9 +1,10 @@
 export default function Header() {
   return (
     <header className="fixed top-0 w-full bg-slate-950/80 backdrop-blur-md z-50 border-b border-slate-800">
-      <div className="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
 
-        <h1 className="text-2xl font-bold text-blue-500 hover:scale-105 transition-transform duration-300">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex justify-between items-center">
+
+        <h1 className="text-3xl sm:text-4xl font-bold text-blue-500">
           <a href="#inicio">DevWeb</a>
         </h1>
 

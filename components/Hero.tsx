@@ -17,7 +17,7 @@ export default function Hero() {
       {/* Conteúdo */}
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6">
 
-        <div className="max-w-3xl mt-24 text-center lg:text-left">
+        <div className="max-w-3xl mx-auto pt-32 pb-16 text-center lg:text-left">
 
           {/* Badge */}
           <div className="relative inline-flex mb-8">
@@ -31,7 +31,7 @@ export default function Hero() {
           </div>
 
           {/* Título */}
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-extrabold leading-tight">
+          <h1 className="text-3xl sm:text-5xl lg:text-7xl font-extrabold leading-tight sm:leading-tight lg:leading-[1.1]">
             Transforme suas
             <span className="text-blue-500"> ideias </span>
             em projetos reais.
@@ -44,18 +44,18 @@ export default function Hero() {
           </p>
 
           {/* Botões */}
-          <div className="flex flex-col sm:flex-row justify-center lg:justify-start gap-5 mt-10">
+          <div className="mt-10 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
 
             <a
               href="https://wa.me/5599999999999"
-              className="px-8 py-4 rounded-xl bg-green-500 font-semibold transition-all duration-300 hover:bg-green-600 hover:scale-105 hover:shadow-[0_0_30px_rgba(34,197,94,.6)]"
+              className="w-full sm:w-auto px-8 py-4 rounded-xl bg-green-500 font-semibold transition-all duration-300 hover:bg-green-600 hover:scale-105 hover:shadow-[0_0_30px_rgba(34,197,94,.6)]"
             >
               Quero Contratar
             </a>
 
             <a
               href="#projetos"
-              className="px-8 py-4 rounded-xl border border-slate-700 transition-all duration-300 hover:border-blue-500 hover:bg-slate-900 hover:scale-105"
+              className="w-full sm:w-auto px-8 py-4 rounded-xl border border-slate-600 text-white hover:border-blue-500 hover:bg-slate-900 transition-all duration-300 hover:scale-105"
             >
               Ver Projetos
             </a>

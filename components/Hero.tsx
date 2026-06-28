@@ -35,12 +35,15 @@ export default function Hero() {
           </div>
 
           {/* Título */}
-          <h1 className="font-extrabold tracking-tight leading-tight text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
-            Transforme suas{" "}
-            <span className="text-blue-500">ideias</span>
-            <br />
-            em projetos reais.
-          </h1>
+          <h1
+  style={{ color: "#ffffff" }}
+  className="font-extrabold tracking-tight text-4xl sm:text-5xl md:text-6xl lg:text-7xl"
+>
+  Transforme suas{" "}
+  <span style={{ color: "#3b82f6" }}>ideias</span>
+  <br />
+  em projetos reais.
+</h1>
 
           {/* Texto */}
           <p className="mt-8 max-w-2xl mx-auto lg:mx-0 text-slate-300 text-lg md:text-xl leading-8">

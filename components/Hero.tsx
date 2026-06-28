@@ -35,7 +35,7 @@ export default function Hero() {
           </div>
 
           {/* Título */}
-          <h1 className="font-extrabold tracking-tight leading-tight text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+          <h1 className="font-extrabold tracking-tight leading-tight text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
             Transforme suas{" "}
             <span className="text-blue-500">ideias</span>
             <br />

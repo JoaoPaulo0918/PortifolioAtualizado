@@ -18,7 +18,7 @@ const projects = [
   {
     icon: Briefcase,
     title: "Portifólio",
-    desc: "Bem vindo ao meu site."
+    desc: "Bem vindo ao meu portifólio profissional."
   }
 ];
 
@@ -34,13 +34,21 @@ export default function Projects() {
           Projetos
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-16 justify-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 justify-items-center">
           {projects.map((item, index) => (
             <div
               key={index}
-              className="bg-slate-800 p-8 rounded-2xl max-w-75 w-full"
+              className="group
+                          bg-slate-900
+                          p-8
+                          rounded-2xl
+                          border border-slate-800
+                          hover:border-blue-500
+                          hover:-translate-y-2
+                          transition-all
+                          duration-300"
             >
-              <item.icon size={40} />
+              <item.icon size={40} className="text-blue-500 mb-4 transition-transform duration-300 group-hover:scale-110"/>
 
               <h3 className="mt-4 text-xl font-bold">
                 {item.title}

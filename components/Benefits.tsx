@@ -37,7 +37,7 @@ export default function Benefits() {
       <div className="max-w-7xl mx-auto px-6">
 
         <h2 className="text-4xl font-bold text-center">
-          Por que estudar conosco?
+          Por que constatar conosco?
         </h2>
 
         <div className="grid md:grid-cols-4 gap-8 mt-16">

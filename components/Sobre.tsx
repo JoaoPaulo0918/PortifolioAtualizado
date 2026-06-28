@@ -40,7 +40,7 @@ export default function About() {
 
           <p className="text-lg leading-relaxed">
             Atualmente me considero em um nível{" "}
-            <span className="text-white font-semibold">intermediário em desenvolvimento web full stack</span>,
+            <span className="text-white font-semibold">júnior em desenvolvimento web full stack</span>,
             com experiência prática na criação de aplicações completas. Já consigo desenvolver projetos
             com frontend, backend e banco de dados, e estou em evolução contínua para níveis mais avançados,
             focando em arquitetura de software, escalabilidade e boas práticas profissionais.

@@ -4,7 +4,7 @@ export default function CTA() {
       <div className="max-w-4xl mx-auto text-center px-6">
 
         <h2 className="text-5xl font-bold">
-          Comece sua carreira hoje
+          Comece seus objetivos hoje
         </h2>
 
         <p className="mt-6 text-slate-400">

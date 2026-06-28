@@ -19,7 +19,7 @@ export default function Hero() {
       </div>
 
       {/* Conteúdo */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
+      <div className="relative z-10 w-full max-w-7xl flex justify-center mx-auto px-4 sm:px-8 lg:px-12">
 
         <div className="max-w-3xl mx-auto lg:mx-0 text-center lg:text-left">
 
@@ -35,21 +35,18 @@ export default function Hero() {
           </div>
 
           {/* Título */}
-          <h1
-  style={{ color: "#ffffff" }}
-  className="font-extrabold tracking-tight text-4xl sm:text-5xl md:text-6xl lg:text-7xl"
->
-  Transforme suas{" "}
-  <span style={{ color: "#3b82f6" }}>ideias</span>
-  <br />
-  em projetos reais.
-</h1>
+          <h1 className="font-extrabold tracking-tight leading-tight text-white text-4xl sm:text-5xl md:text-6xl lg:text-6xl">
+            Transforme suas{" "}
+            <span className="text-blue-500">ideias</span>
+            <br />
+            em projetos reais.
+          </h1>
 
           {/* Texto */}
-          <p className="mt-8 max-w-2xl mx-auto lg:mx-0 text-slate-300 text-lg md:text-xl leading-8">
-            Aprenda HTML, CSS, JavaScript, React, Next.js, Node.js e Python
+          <p className="mt-8 max-w-2xl mx-auto lg:mx-0 text-slate-300 text-lg text-justify md:text-xl leading-8">
+            Ultilizando HTML, CSS, JavaScript, React, Next.js, Node.js e Python
             desenvolvendo aplicações profissionais do zero e criando projetos
-            utilizados no mercado.
+            reais.
           </p>
 
           {/* Botões */}

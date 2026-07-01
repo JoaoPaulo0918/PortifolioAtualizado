@@ -51,7 +51,7 @@ const projects: Project[] = [
     icon: Briefcase,
     title: "Portifólio",
     desc: "Bem vindo ao meu portifólio profissional.",
-    images: ["/img/port1.png", "/img/port2.png"],
+    images: ["/images/por.jpg", "/images/por1.jpg", "/images/por2.jpg"],
     fullDesc:
       "Portfólio pessoal desenvolvido para apresentar projetos e habilidades como desenvolvedor.",
     techs: ["TypeScript", "Tailwind", "NextJs"],

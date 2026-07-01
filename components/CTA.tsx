@@ -13,7 +13,7 @@ export default function CTA() {
         </p>
 
         <a
-          href="https://wa.me/5599999999999"
+          href="https://wa.me/5581933008837"
           className="inline-block mt-8 bg-green-500 px-8 py-4 rounded-xl"
         >
           Falar no WhatsApp

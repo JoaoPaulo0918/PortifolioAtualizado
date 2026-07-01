@@ -29,7 +29,7 @@ export default function CTA() {
           {/* Fim */}
           <div className="flex gap-6">
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/jo%C3%A3o-paulo-silva-57349221b/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-gray-600 hover:text-blue-500 transition"
@@ -39,7 +39,7 @@ export default function CTA() {
             </a>
 
             <a
-              href="https://github.com"
+              href="https://github.com/JoaoPaulo0918"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-gray-600 hover:text-black transition"
